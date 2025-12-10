@@ -1,0 +1,61 @@
+/* Bao cao (report) specific tweaks */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.stat-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.comparison-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.chart-container {
+    position: relative;
+    width: 100%;
+    min-height: 320px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.badge {
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.badge.badge-success {
+    background: rgba(16, 185, 129, 0.15);
+    color: #047857;
+}
+
+.badge.badge-danger {
+    background: rgba(239, 68, 68, 0.15);
+    color: #b91c1c;
+}
+
+.positive {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.negative {
+    color: #ef4444;
+    font-weight: 600;
+}
+
